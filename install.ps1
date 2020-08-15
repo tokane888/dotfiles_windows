@@ -1,13 +1,13 @@
-# kindle‚Íinstall¸”s(403 error)‚µ‚½‚Ì‚Åƒuƒ‰ƒEƒU‚©‚çinstall
-# googlejapaneseinput‚Íƒ_ƒCƒAƒƒO‚ªo‚é‚Ì‚Åè“®‚Å“ü‚ê‚é
+# kindleã¯installå¤±æ•—(403 error)ã—ãŸã®ã§ãƒ–ãƒ©ã‚¦ã‚¶ã‹ã‚‰install
+# googlejapaneseinputã¯ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ãŒå‡ºã‚‹ã®ã§æ‰‹å‹•ã§å…¥ã‚Œã‚‹
 # cinst --yes googlejapanese input
-# TODO: packages.configHg‚¤•û–@‚ª—Ç‚¢‚Ì‚©‚à‚µ‚ê‚È‚¢‚Ì‚Å’²¸
+# TODO: packages.configï¼Ÿä½¿ã†æ–¹æ³•ãŒè‰¯ã„ã®ã‹ã‚‚ã—ã‚Œãªã„ã®ã§èª¿æŸ»
 cinst --yes autohotkey bind-toolsonly docker-desktop dropbox Everything git googledrive go manictime microsoft-teams microsoft-windows-terminal powershell-core SakuraEditor slack vim virtualbox vlc vscode winmerge wireshark zoom
 
-reg add HKLM\SOFTWARE\Classes\*\shell\sakuraeditor /d "SAKURA‚ÅŠJ‚­(&E)"
+reg add HKLM\SOFTWARE\Classes\*\shell\sakuraeditor /d "SAKURAã§é–‹ã(&E)"
 reg add HKLM\SOFTWARE\Classes\*\shell\sakuraeditor\command /t REG_SZ /d "C:\Program Files (x86)\sakura\sakura.exe %1"
 
 Set-Itemproperty -path 'HKCU:\Control Panel\Accessibility\StickyKeys' -Name 'Flags' -value '0'
 
-# git-bash‚Å‚Ìgit logQÆ‚È‚Ç‚Ì•¶š‰»‚¯‘Îô
+# git-bashã§ã®git logå‚ç…§æ™‚ãªã©ã®æ–‡å­—åŒ–ã‘å¯¾ç­–
 [System.Environment]::SetEnvironmentVariable("LESSCHARSET", "utf-8", "Machine")
