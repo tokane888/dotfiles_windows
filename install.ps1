@@ -7,6 +7,7 @@ cinst --yes autohotkey bind-toolsonly docker-desktop dropbox etcher Everything g
 reg add HKLM\SOFTWARE\Classes\*\shell\sakuraeditor /d "SAKURAで開く(&E)"
 reg add HKLM\SOFTWARE\Classes\*\shell\sakuraeditor\command /t REG_SZ /d "C:\Program Files (x86)\sakura\sakura.exe %1"
 
+# shift5回で固定キー有効化される機能を無効化
 Set-Itemproperty -path 'HKCU:\Control Panel\Accessibility\StickyKeys' -Name 'Flags' -value '0'
 
 # git-bashでのgit log参照時などの文字化け対策
