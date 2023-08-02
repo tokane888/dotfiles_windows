@@ -19,3 +19,6 @@ Set-Itemproperty -path 'HKCU:\Control Panel\Accessibility\StickyKeys' -Name 'Fla
 
 # Prevent git log garbled on git log.
 [System.Environment]::SetEnvironmentVariable("LESSCHARSET", "utf-8", "Machine")
+
+wsl --update
+ubuntu config --default-user

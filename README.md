@@ -11,6 +11,7 @@
     * Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 * powershell再起動
 * 旧PCからssh関連情報をscpなどでコピー
+* wsl + ubuntuをmicrosoft storeからインストール
 * TODO: ahk scriptを自動でgit cloneしてインストールするスクリプト追加
 * TODO: .vimrc, .gitconfigをdotfiles-common git repositoryに追加し、git cloneして使用可能にする
     * 実体を置く場所からショートカット張る
