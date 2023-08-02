@@ -12,6 +12,7 @@
 * powershell再起動
 * 旧PCからssh関連情報をscpなどでコピー
 * wsl + ubuntuをmicrosoft storeからインストール
+* caps2ctrlダウンロードして実行
 * TODO: ahk scriptを自動でgit cloneしてインストールするスクリプト追加
 * TODO: .vimrc, .gitconfigをdotfiles-common git repositoryに追加し、git cloneして使用可能にする
     * 実体を置く場所からショートカット張る
