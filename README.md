@@ -11,7 +11,13 @@
     * Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 * powershell再起動
 * 旧PCからssh関連情報をscpなどでコピー
-* wsl + ubuntuをmicrosoft storeからインストール
+* windowsの機能の追加で下記を有効化
+  * Hyper-v
+  * Linux何とか
+  * 仮想化
+* 下記形式のコマンド実行でubuntuインストール(ver部分は修正)
+  * wsl --install -d Ubuntu-22.04
+* windows再起動
 * caps2ctrlダウンロードして実行
 * TODO: ahk scriptを自動でgit cloneしてインストールするスクリプト追加
 * TODO: .vimrc, .gitconfigをdotfiles-common git repositoryに追加し、git cloneして使用可能にする
