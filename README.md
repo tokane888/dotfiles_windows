@@ -27,3 +27,21 @@
   - chocolateyだと右クリックメニューを手動で編集する必要が生じるので使用しない
 - lhaplusブラウザからインストール
   - chocolateyだとchecksumエラー
+  - いっそterminalから解凍する前提にしても良いかもしれない
+- 仮想ディスプレイ作成
+  - win + tabで作成
+- 仮想ディスプレイ移動アニメーション無効化
+  - 設定 > システム > バージョン情報 > システムの詳細設定 > パフォーマンスの「設定」 > "Windows内のアニメーション コントロールと要素"を無効化
+- 下記のchrome拡張追加
+  - empty new tab page
+  - go back with backspace
+  - ublockorigin
+  - user javascript and css
+  - vimium
+  - ブラウザ録画用の拡張
+    - screen recorder for google chrome
+    - アプリの操作説明を受ける際は画面全体を録画して良いか確認
+- ウィンドウが勝手にグループ化されるのを防ぐ
+  - Windows の設定を開き、「システム」→「マルチタスク」を開く
+  - 「ウィンドウのスナップ」項目を展開
+  - 「タスクビューのタスクバーアプリの上にマウスカーソルを移動したとき、そして Alt+Tab を押したときに、スナップしたウィンドウを表示する」のチェックを外す
