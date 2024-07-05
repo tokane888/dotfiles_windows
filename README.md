@@ -19,6 +19,7 @@
   - wsl --install -d Ubuntu-22.04
 - windows再起動
 - caps2ctrlダウンロードして実行
+  - なぜか入れ替わらなかったので、最初からregistry書き換えが安定かも
 - TODO: ahk scriptを自動でgit cloneしてインストールするスクリプト追加
 - TODO: .vimrc, .gitconfigをdotfiles-common git repositoryに追加し、git cloneして使用可能にする
   - 実体を置く場所からショートカット張る
@@ -26,4 +27,3 @@
   - chocolateyだと右クリックメニューを手動で編集する必要が生じるので使用しない
 - lhaplusブラウザからインストール
   - chocolateyだとchecksumエラー
-- winメニューからgoogle drive起動して設定して同期
