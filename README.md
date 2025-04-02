@@ -9,6 +9,8 @@
   - win+x => win+a
   - Set-ExecutionPolicy Bypass
   - Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+- chocolateyからinstall.ps1記載の必要なパッケージインストール
+  - teamsは職場の場合、personalとは別のパッケージが必要になるので注意
 - powershell再起動
 - 旧PCからssh関連情報をscpなどでコピー
 - windowsの機能の追加で下記を有効化
