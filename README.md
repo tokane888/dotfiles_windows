@@ -15,7 +15,7 @@
 - 旧PCからssh関連情報をscpなどでコピー
 - windowsの機能の追加で下記を有効化
   - Hyper-v
-  - Linux何とか
+  - Linux用Windowsサブシステム
   - 仮想化
 - 下記形式のコマンド実行でubuntuインストール(ver部分は修正)
   - wsl --install -d Ubuntu-22.04
